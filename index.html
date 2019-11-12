@@ -24,10 +24,9 @@
 
     <div class="container mt-5">
         <form class="search-form">
-            <input type="text" class="search form-control" placeholder="city or state">
-            <ul class="suggestions hl">
-                <li class="list-group">
-                <li class="list-group-item">Filter for a city</li>
+            <input type="text" class="search form-control btn-outline-primary" placeholder="City or State">
+            <ul class="list-group suggestions hl text-justify">
+                <li class="list-group-item mw-10">Filter for a city</li>
                 <li class="list-group-item">or a state</li>
             </ul>
         </form>
@@ -90,6 +89,14 @@
         li .hl {
             color: #fff;
             background: rgb(233, 160, 4);
+            text-decoration: none;
+            padding: 0 auto;
+            box-shadow: 5px 10px #888888;
+        }
+
+        form {
+            width: 40%;
+
         }
     </style>
 </body>
